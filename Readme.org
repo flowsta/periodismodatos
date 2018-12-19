@@ -19,6 +19,10 @@
 #+REVEAL_PLUGINS: (markdown notes)
 #+REVEAL_ROOT: https://cdn.jsdelivr.net/reveal.js/3.0.0/
 
+* COMMENT ¿Periodismo de Datos?
+
+Presentación de periodismo de datos 2018, pendiente de actualizar en algunas de sus secciones.
+
 
 * Periodismo de Datos
    :PROPERTIES:
@@ -134,7 +138,7 @@ https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/John_Snow.jpg/400px-Jo
 
 * Philip Meyer
   :PROPERTIES:
-  :reveal_background: http://newstories.jomc.unc.edu/wp-content/uploads/MEYER-PHILIP-1-25-99.jpg
+  :reveal_background: http://newstories.mj.unc.edu/files/2016/10/MEYER-PHILIP-1-25-99.jpg
   :END:
 ** The Miami Herald
 #+attr_html: :width 200
