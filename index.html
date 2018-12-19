@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Introducción al periodismo de datos</title>
+<meta name="author" content="(Adolfo Antón Bravo)"/>
+<meta name="description" content="Introducción del periodismo de datos"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/reveal.js/3.0.0/css/reveal.css"/>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/reveal.js/3.0.0/css/theme/white.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'https://cdn.jsdelivr.net/reveal.js/3.0.0/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+<meta name="description" content="Presentación de Periodismo de datos ">
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">Introducción al periodismo de datos</h1><h2 class="author">Adolfo Antón Bravo</h2><h2 class="date">2018-12-17 lun 00:00</h2><p class="date">Created: 2018-12-19 mié 13:50</p>
+</section>
+
+<section>
+<section id="slide-orgaab3efc" data-background="imgs/tallerdatos.jpg">
+<h2 id="orgaab3efc">Periodismo de Datos</h2>
+</section>
+</section>
+<section>
+<section id="slide-org0473413">
+<h2 id="org0473413">Contexto: sociedad de la información</h2>
+<ul>
+<li>Vivimos en la sociedad de la información desde los años 1960'.</li>
+<li>La evolución del periodismo es la evolución de la sociedad de la información.</li>
+<li>Hemos pasado de la predominancia de la sociedad industrial a la de la industria del conocimiento.</li>
+<li>Estamos pasando y conviviendo de la prensa a la Web y del entorno de escritorio -estático- al portátil y a
+los dispositivos electrónicos móviles.</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-orgba925ee">
+<h3 id="orgba925ee">¿Sociedad industrial?</h3>
+<ul>
+<li>Precede, comparte, se apoya y dinamiza la <b>Sociedad de la información</b></li>
+<li>¿Sociedad del consumo?: las noticias como elemento de consumo.</li>
+<li>¿O es una sociedad del entretenimiento? &#x2013;&gt; ¿Fake news?</li>
+<li>¿O es una Sociedad del conocimiento? &#x2013;&gt; ¿de quiénes?</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org53edd6d">
+<h3 id="org53edd6d">Confluencia industrial-informacional (algunos)</h3>
+<ul>
+<li>Máquina de vapor de Watt, 1774</li>
+<li>Telar de Jacquard, 1801: tarjetas perforadas para tejer patrones</li>
+<li>Programación de Ada Lovelace, 1842.</li>
+<li>John Ambrose Fleming, válvula, 1904.</li>
+<li>Transistor, 1930'</li>
+<li>Cambio acelerado durante y tras la II Guerra Mundial a nivel
+hardware y software.</li>
+<li>John von Neumann, arquitectura de ordenador, 1945.</li>
+<li>Teoría matemática de la información de Shannon y Weaver, 1948
+apoyada en Markov, Tukey, Von Neumann, Turing, Wiener&#x2026;</li>
+<li>Cibernética, Internet, Web</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgfc19483">
+<h2 id="orgfc19483">Antecedentes de la visualización de datos</h2>
+<div class="outline-text-2" id="text-orgfc19483">
+</div>
+</section>
+</section>
+<section>
+<section id="slide-orgaaa276c">
+<h3 id="orgaaa276c">Florence Nightingale 1820-1910</h3>
+
+<div class="figure">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Crimean_War;_Florence_Nightingale_at_Scutari_Hospital,_1856,_Wellcome_V0015400.jpg" alt="Crimean_War;_Florence_Nightingale_at_Scutari_Hospital,_1856,_Wellcome_V0015400.jpg" width="300" />
+</p>
+</div>
+
+<ul>
+<li>Enfermera, escritoria y estadística</li>
+<li>Considerada pionera de la enfermería moderna.</li>
+<li>Creadora del primer modelo conceptual de enfermería.</li>
+
+</ul>
+</section>
+<section id="slide-orge399fa7" data-background="http://www.frogheart.ca/wp-content/uploads/2014/02/Rose_FlorenceNightingale1.jpeg">
+<h4 id="orge399fa7">Causas de fallecimiento en la Guerra de Crimea</h4>
+</section>
+</section>
+<section>
+<section id="slide-org9b75b0d">
+<h3 id="org9b75b0d">Charles Minard 1781-1870</h3>
+
+<div class="figure">
+<p><img src="http://www.ine.es/expo_graficos2010/imagenes/Minard_09_10_11.jpg" alt="Minard_09_10_11.jpg" />
+</p>
+</div>
+
+<ul>
+<li>Ingeniero civil francés</li>
+<li>Estudia ciencia y matemáticas</li>
+
+</ul>
+
+</section>
+<section id="slide-orgf2ac044" data-background="https://upload.wikimedia.org/wikipedia/commons/2/29/Minard.png">
+<h4 id="orgf2ac044">Napoleón en Rusia</h4>
+</section>
+<section id="slide-org12c5a6c" data-background="https://cartographia.files.wordpress.com/2008/05/minard-full.jpg">
+<h4 id="org12c5a6c">Migrantes</h4>
+
+</section>
+<section id="slide-org30ea8de" data-background="https://cartographia.files.wordpress.com/2008/06/cotton-and-wool-58-to-61.jpg">
+<h4 id="org30ea8de">Algodón y lana</h4>
+</section>
+<section id="slide-org5d29572" data-background="https://cartographia.files.wordpress.com/2008/06/cotton-and-wool-58-to-61-graph.jpg">
+<h4 id="org5d29572">Algodón y lana, II</h4>
+</section>
+<section id="slide-orgad77383" data-background="https://cartographia.files.wordpress.com/2008/06/wine-and-spirit-tonnage.jpg">
+<h4 id="orgad77383">Viva el vino</h4>
+</section>
+<section id="slide-org979aad1" data-background="https://cartographia.files.wordpress.com/2008/06/port-and-river-tonnage.jpg">
+<h4 id="org979aad1">Ríos y puertos</h4>
+</section>
+<section id="slide-org2415553" data-background="https://cartographia.files.wordpress.com/2008/06/english-coal-exports.jpg">
+<h4 id="org2415553">Exportaciones de carbón británico</h4>
+</section>
+</section>
+<section>
+<section id="slide-orgaf17679" data-background="https://upload.wikimedia.org/wikipedia/commons/c/c7/Snow-cholera-map.jpg">
+<h3 id="orgaf17679">John Snow</h3>
+</section>
+<section id="slide-org3a213bf">
+<h4 id="org3a213bf">John Snow 1813-1858</h4>
+
+<div class="figure">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/John_Snow.jpg/400px-John_Snow.jpg" alt="400px-John_Snow.jpg" width="200" />
+</p>
+</div>
+
+<ul>
+<li>York, 1813 - Londres, 1858.</li>
+<li>Médico inglés precursor de la <b>epidemiología</b> moderna.</li>
+<li>Rompe con la <a href="https://es.wikipedia.org/wiki/Teor%C3%ADa_miasm%C3%A1tica_de_la_enfermedad">teoría miasmática</a> de la enfermedad, también denominada <i>teoría
+anticontagionista</i></li>
+
+</ul>
+
+</section>
+<section id="slide-orgf5dc844" data-background="https://f.hypotheses.org/wp-content/blogs.dir/253/files/2015/02/johnsnowillustration.png">
+<h4 id="orgf5dc844">Buscar la fuente del cólera</h4>
+
+</section>
+<section id="slide-org1515031" data-background="http://blog.rtwilson.com/wp-content/uploads/2012/01/SnowMap_Points-1024x724.png">
+<h4 id="org1515031">Mapa del cólera</h4>
+
+</section>
+</section>
+<section>
+<section id="slide-org2c105fd">
+<h2 id="org2c105fd">Antecedentes al periodismo de datos</h2>
+<div class="outline-text-2" id="text-org2c105fd">
+</div>
+</section>
+</section>
+<section>
+<section id="slide-orgc177d97">
+<h3 id="orgc177d97"><a id="ID-799701b7-e6ef-42b3-96f7-d0e8a6273b0b"></a>American Slavery as it is: testimony, a thousand witnesses</h3>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/American_Slavery_As_It_Is">American Slavery As It Is</a> es un tratado abolicionista publicado en Nueva York por la Sociedad Americana Antiesclavista.</li>
+<li>Sus tres autorxs, dos mujeres y un hombre, buscaron datos para apoyar su causa.</li>
+<li>Emplearon la herramienta del anuncio "Se busca" de todos los periódicos, donde se daban datos de lxs esclavxs para que pudieran ser reconocidxs y pudieran volver a la plantación.</li>
+<li>Disponible en <a href="https://archive.org/details/americanslaverya1839weld2/">archive.org</a> y en la <a href="https://docsouth.unc.edu/neh/weld/weld.html">unc.edu</a></li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-orgedc86ff" data-background="http://newstories.jomc.unc.edu/wp-content/uploads/MEYER-PHILIP-1-25-99.jpg">
+<h2 id="orgedc86ff">Philip Meyer</h2>
+</section>
+</section>
+<section>
+<section id="slide-org63a2ee4">
+<h3 id="org63a2ee4">The Miami Herald</h3>
+
+<div class="figure">
+<p><img src="http://newstories.jomc.unc.edu/wp-content/uploads/MEYER-PHILIP-1-25-99.jpg" alt="MEYER-PHILIP-1-25-99.jpg" width="200" />
+</p>
+</div>
+
+<ul>
+<li>Comienza su actividad periodística en The Miami Herald (1958-62).</li>
+<li>Precedente de Meyer al periodismo de datos: queja del alto coste de
+los seguros escolares contra incendios y huracanes
+<ul>
+<li>Ese coste lo establecía un consejo de funcionarios, cruza los
+nombres del consejo con personas de empresas y da como resultado
+que el 65% de la financiación de las campañas electorales procedían
+de empresarios de seguros.</li>
+
+</ul></li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org3bfab1d" data-background="http://computer-history.info/Page4.dir/pages/IBM.7090.dir/images/ibm.7090.jpg">
+<h3 id="org3bfab1d">Ciencias sociales</h3>
+</section>
+<section id="slide-org9a91bcf">
+<h4 id="org9a91bcf">Aplicaciones informáticas</h4>
+
+<div class="figure">
+<p><img src="http://computer-history.info/Page4.dir/pages/IBM.7090.dir/images/ibm.7090.jpg" alt="ibm.7090.jpg" width="200" />
+</p>
+</div>
+
+<ul>
+<li>En Harvard Computation Center (1966) utiliza un IBM 7090.</li>
+<li>Busca predecir los resultados electorales de Ohio sin éxito.</li>
+<li>Durante su beca en Nieman estudia métodos de investigación de las ciencias sociales para aplicarlos al periodismo.</li>
+<li>Cada estudiante disponía de 120 segundos para utilizar el ordenador.</li>
+<li>Lo emplea con datos tabulados sobre <i>Harvard Data-Text</i>, el predecesor de <i>SPSS</i> (<i>Statistical Package for the Social Sciences</i>).</li>
+<li>Intercambia minutos de uso del IBM por artículos para Nieman.</li>
+
+</ul>
+</section>
+<section id="slide-orgcd808f3" data-background="http://www.home.isr.umich.edu/wp-content/uploads/2011/04/freepress_article.png">
+<h4 id="orgcd808f3">Detroit Riots</h4>
+<p>
+1967, largo y cálido verano
+</p>
+
+</section>
+</section>
+<section>
+<section id="slide-org105ba31">
+<h3 id="org105ba31">Investigación</h3>
+<p>
+Revueltas de la ciudad de Detroit 1967
+</p>
+
+<ul>
+<li>Tras una semana de incidentes, hay 46 personas muertas.</li>
+<li>Se propone realizar, además de las historias periodísticas clásicas, una encuesta que busque las causas de la revuelta.</li>
+<li>La Universidad de California había realizado un informe sobre las
+revueltas en Watts 1965. Les llevó dos años.</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org364aaa5">
+<h3 id="org364aaa5">Encuesta</h3>
+<ul>
+<li>Meyer se propone seguir el mismo método que la UCLA</li>
+<li>Reducir el tiempo a hacerlo en tan solo tres semanas.</li>
+<li>Equipo:
+<ul>
+<li>Dos psicólogxs</li>
+<li>Una programadora informática</li>
+<li>50 entrevistadorxs.</li>
+<li>Programa <i>Filter Tau</i> sobre un <i>IBM 360/40</i></li>
+
+</ul></li>
+
+</ul>
+</section>
+<section id="slide-orgc93610d" data-background="https://upload.wikimedia.org/wikipedia/commons/8/8d/Bundesarchiv_B_145_Bild-F038812-0014,_Wolfsburg,_VW_Autowerk.jpg">
+<h4 id="orgc93610d">IBM 360/40</h4>
+
+</section>
+</section>
+<section>
+<section id="slide-orgd30a2ee">
+<h3 id="orgd30a2ee">Periodismo de precisión</h3>
+
+<div class="figure">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/8/8d/Bundesarchiv_B_145_Bild-F038812-0014,_Wolfsburg,_VW_Autowerk.jpg" alt="Bundesarchiv_B_145_Bild-F038812-0014,_Wolfsburg,_VW_Autowerk.jpg" width="300" />
+</p>
+</div>
+
+<ul>
+<li>El uso de métodos de análisis de las ciencias sociales unido a software estadístico y ordenadores para construir una historia periodística lo definen como <b>periodismo de precisión</b> (1969).</li>
+<li>Desmontan la teoría <i>Riff-Raff</i> (revuelta para el avance) y la
+<i>Assimilation</i> (migraciones)</li>
+
+</ul>
+<ul>
+<li>La teoría que triunfa es la de las aspiraciones cortadas: ver cómo los demás progresan mientras tú te estancas causa frustración.
+<ul>
+<li>Su trabajo se traduce en un libro fundamental: <i>Precision Journalism: A Reporter's Introduction to Social Science Methods</i> (1973)</li>
+
+</ul></li>
+
+</ul>
+
+</section>
+<section id="slide-org68c8a44">
+<h4 id="org68c8a44">Computer Assisted Reporting&#x2026;</h4>
+<ul>
+<li>La sociedad de la información produce abundancia de información.</li>
+<li>Lo que a su vez origina un problema de atención.</li>
+<li>Se sacrifica todo en pro de la atención, incluso la verdad.</li>
+<li>Nota: cuando decía atención, entendamos ahora <i>analytics</i></li>
+<li>CAR ha promovido un alto estándar de noticias que cuentan la verdad</li>
+<li>Aplicaciones informáticas: manejar grandes cantidades de información con herramientas analíticas más potentes.</li>
+<li>El ordenador ayuda pero el ordenador no es el objetivo ni define lo que es el periodismo.</li>
+<li>Situamos al periodismo a nivel de la ciencia y del arte.</li>
+
+</ul>
+
+</section>
+<section id="slide-org26f7124">
+<h4 id="org26f7124">&#x2026;is dead</h4>
+<ul>
+<li>La vía artística facilita la función del periodismo como entretenimiento.</li>
+<li>Cuando la atención es más importante que la historia, el mercado recompensa a aquellos que tienen habilidades en la creación de apariencias.</li>
+<li>Para favorecer la verdad en el periodismo, podemos practicar periodismo de precisión.</li>
+<li>Superar las ilusiones, la superstición, la percepción selectiva y las otras debilidades humanas que dificultan la adquisición de conocimientos.</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org73cf1e2">
+<h3 id="org73cf1e2">Resumen</h3>
+<ul>
+<li>Periodismo</li>
+<li>Investigación</li>
+<li>Datos</li>
+<li>Aplicaciones informáticas</li>
+<li>Visualización</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org3623021" data-background="http://photos4.meetupstatic.com/photos/event/4/d/d/e/highres_435379934.jpeg">
+<h2 id="org3623021">Periodismo de datos en España</h2>
+</section>
+</section>
+<section>
+<section id="slide-org4578be8">
+<h3 id="org4578be8">Grupo de Periodismo de Datos de Medialab-Prado</h3>
+<ul>
+<li>En funcionamiento desde el 20 de octubre de 2011.</li>
+<li>Se inauguró tras un seminario organizado por Medialab Prado, Access Info Europe y Civio.</li>
+<li>Fundadorxs: José Luis de Vicente, Victoria Anderica, David Cabo, Alberto Cairo, Pepe Cervera, Antonio Delgado y Mar Cabra.</li>
+
+</ul>
+
+</section>
+<section id="slide-orgcdcdff4">
+<h4 id="orgcdcdff4">Actividades</h4>
+<ul>
+<li>Más de 30 <a href="http://medialab-prado.es/article/periodismo_de_datos_-_grupo_de_trabajo">Sesiones mensuales</a>: talleres, charlas, intercambio de proyectos</li>
+<li>Talleres de producción de periodismo de datos, desde 2013 ininterrumpidamente.</li>
+<li>Difusión:
+<ul>
+<li><a href="http://listas.medialab-prado.es/cgi-bin/mailman/listinfo/grupoperiodismodatos">Lista de correo</a> (no está en funcionamiento)</li>
+<li>Hashtag <a href="https://twitter.com/search?q=periodismodatos&amp;src=typd">#periodismodatos</a>.</li>
+<li><a href="http://www.meetup.com/es-ES/Madrid-Periodismo-de-datos-Meetup/">Meetup</a></li>
+<li>Github</li>
+
+</ul></li>
+
+</ul>
+
+</section>
+<section id="slide-org617b2cc">
+<h4 id="org617b2cc">Ediciones mensuales</h4>
+<ul>
+<li>Se han realizado distintos formatos
+<ul>
+<li>Presentaciones</li>
+<li>Demostraciones</li>
+<li>Barcamp</li>
+<li>Talleres</li>
+<li>Journocoders</li>
+
+</ul></li>
+
+</ul>
+
+</section>
+<section id="slide-orgda02eff">
+<h4 id="orgda02eff">Talleres de producción de periodismo de datos</h4>
+<ul>
+<li>Comenzaron en 2013 de la mano de Mar Cabra</li>
+<li>Desde 2015 con Adolfo Antón Bravo.</li>
+<li>Formato dos fines de semana largos hasta 2015</li>
+<li>2015: se añade un espacio intermedio.</li>
+<li>Convocatoria de proyectos</li>
+<li>Convocatoria de colaboradorxs</li>
+<li>Mentores internacionales y locales</li>
+<li>8 proyectos seleccionados hasta 2017, 6 desde entoncees.</li>
+<li>Equipos multidisciplinares</li>
+<li>Dinamización y capacitación.</li>
+<li>Charlas y talleres</li>
+
+</ul>
+
+</section>
+<section id="slide-org21c0ca9">
+<h4 id="org21c0ca9">Jornadas de periodismo de datos</h4>
+<ul>
+<li>Comienzan en 2013 de las manos de Karma Peiró y Mar Cabra.</li>
+<li>3-4 días de charlas, talleres, barcamps, hackatones.</li>
+<li>Ponentes internacionales y locales</li>
+<li>Desde 2017 se integran con el taller de periodismo de datos.</li>
+
+</ul>
+
+</section>
+<section id="slide-org9f0ab4d">
+<h4 id="org9f0ab4d">Lista de correo</h4>
+<ul>
+<li>Creada desde el inicio</li>
+<li>Muy activa en sus comienzos</li>
+<li>Lista Mailman en el servidor de Medialab-Prado con más de 400 personas.</li>
+
+</ul>
+
+</section>
+<section id="slide-org7b0c8ba">
+<h4 id="org7b0c8ba">Meetup</h4>
+<ul>
+<li>Más de 1.100 suscritxs</li>
+<li>Difusión de actividades</li>
+<li>Foro</li>
+<li>Correo: Mailman</li>
+<li>Gestión de entradas</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org2312f8c">
+<h3 id="org2312f8c">Editors Lab</h3>
+<ul>
+<li>Hackatones de innovación periodística organizados por la Global Editors Network.</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org3ac4441">
+<h2 id="org3ac4441">Evolución de las competencias</h2>
+
+<div class="figure">
+<p><img src="http://m.cdn.blog.hu/me/media20/image/roles_in_the_newsroom.jpg" alt="roles_in_the_newsroom.jpg" width="600" />
+</p>
+</div>
+<ul>
+<li>Periodista con competencias informáticas</li>
+<li>Desarrollador de aplicaciones de noticias</li>
+<li>Especialista en visualización de datos</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org2854378">
+<h3 id="org2854378">Términos para investigar</h3>
+<ul>
+<li>Teoría de redes</li>
+<li>Internet como espacio virtual de la comunicación</li>
+<li>Relaciones horizontales, descentralizadas, dinámicas y circulares</li>
+<li>Cibernética de segundo grado, sistemas inteligentes</li>
+<li>Ciudades abiertas, ciudades poderosas, <i>Smart cities</i></li>
+<li>Matemáticas, estadística, documentación y recuperación de la información, programación&#x2026;</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org5f06747">
+<h3 id="org5f06747">¿Nuevos medios?</h3>
+<p>
+Lev Manovich en <a href="https://uea1arteycomunicacion.files.wordpress.com/2013/09/manovich-el-legunaje-de-los-nuevos-medios.pdf">El lenguaje de los nuevos medios</a>, habla de sus características:
+</p>
+
+<ul>
+<li>Representación numérica: 0101</li>
+<li>Modularidad: capas, procesos, estructuración&#x2026;</li>
+<li>Automatización: cron, bot, programación&#x2026;</li>
+<li>Variabilidad: datos dinámicos</li>
+<li>Transcodificación: conversión, parseo, exportar&#x2026;</li>
+
+</ul>
+
+
+</section>
+</section>
+<section>
+<section id="slide-org1adb3fa">
+<h3 id="org1adb3fa">Término periodista de datos</h3>
+<ul>
+<li>Periodista de Datos Abiertos, de la Web: comienza a utilizarse a
+partir de 2011</li>
+<li>Distintas competencias y aptitudes.</li>
+<li><i>Data Journalist</i>, periodista de datos, el término más utilizado en la actualidad.</li>
+<li><i>Computer-assisted reporter</i>, reportero asistido por ordenador, del original norteamericano previo a Philip Meyer pero consolidado con su <i>precission journalism</i> o periodismo de precisión.</li>
+<li><i>Newsroom developer</i> o desarrollador de redacción.</li>
+<li><i>Journo-geek</i> o periodista geek, en inglés el juego de palabras funciona mejor.</li>
+<li>Periodismo 3.0</li>
+
+</ul>
+</section>
+<section id="slide-org3ac141b">
+<h4 id="org3ac141b">Pero no solo</h4>
+<p>
+Y se añaden algunos más:
+</p>
+
+<ul>
+<li><i>Journo-coder</i>, una especie de <i>perio-programador</i></li>
+<li><i>Programmer-journalist</i>: programador-periodista.</li>
+<li><i>Hacker-journalist</i>: hacker-periodista</li>
+<li><i>Journo-programmer</i>: <i>perio-programador</i></li>
+
+</ul>
+</section>
+<section id="slide-org138c066">
+<h4 id="org138c066">Journo programmer</h4>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Dave_Winer">Dave Winer</a> habla de <i>journo programmer</i> o <i>periodista programador</i>.</li>
+<li>La importancia de enlazar contenidos es comparable con la importancia de procedimientos en los lenguajes de programación:</li>
+<li>Considera a la web como una máquina de prior-art, una forma de compartir conocimiento y saber hacer.</li>
+<li>Otro concepto que le gusta es el de <i>stream</i>, flujo o río de información que ha convertido la prensa, la información, en algo líquido.</li>
+
+</ul>
+
+<blockquote nil>
+<p>
+Imaginad que cada pieza de código que escribes tiene que volver al principio y definir lo que significa añadir dos números. Lo mismo ocurre con la escritura: no necesito escribir un artículo de Niemen Lab porque ya está escrito y lo puedo enlazar.
+</p>
+</blockquote>
+
+
+</section>
+</section>
+<section>
+<section id="slide-orga581455" data-background="https://upload.wikimedia.org/wikipedia/commons/4/48/Data_driven_journalism_process.jpg">
+<h3 id="orga581455">Enfoques del periodismo de datos</h3>
+</section>
+<section id="slide-org9ebe723" data-background="http://knightlab.northwestern.edu/wp-content/uploads/2013/06/venn-3-dimensions-of-data-journalism.png">
+<h4 id="org9ebe723">Las 3 dimensiones</h4>
+
+</section>
+<section id="slide-org80e7fb6" data-background="http://www.knightfoundation.org/media/uploads/media_images/Screen_shot_2011-06-22_at_8.51.41_AM.png">
+<h4 id="org80e7fb6">The Hacker Journalist</h4>
+</section>
+<section id="slide-orgfa618d7" data-background="http://cdn1.mumbrella.com.au/uploads/2013/02/Screen-Shot-2013-02-18-at-9.08.02-AM.png">
+<h4 id="orgfa618d7">Infografía</h4>
+
+</section>
+<section id="slide-orgc46b504" data-background="http://mediashift.org/wp-content/uploads/sites/8/2014/06/data-journalism_AnnaSchiller.jpg">
+<h4 id="orgc46b504">Competencias</h4>
+</section>
+</section>
+<section>
+<section id="slide-orge205cae">
+<h2 id="orge205cae">Ejemplos de Periodismo de Datos&#xa0;&#xa0;&#xa0;<span class="tag"><span class="END">END</span></span></h2>
+<div class="outline-text-2" id="text-orge205cae">
+</div>
+</section>
+</section>
+<section>
+<section id="slide-orgbffb485">
+<h3 id="orgbffb485">Internacional</h3>
+<ul>
+<li>ICIJ, #Panamapapers</li>
+<li>Journalism Funds: Migrants' Files</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org21167ff">
+<h3 id="org21167ff">España</h3>
+
+<div class="figure">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Data_driven_journalism_process.jpg" alt="Data_driven_journalism_process.jpg" width="500px" />
+</p>
+</div>
+<ul>
+<li><a href="http://www.elconfidencial.com/tags/otros/periodismo-de-datos-9977/">ElConfidencial.com</a>: Daniele Grasso, Jesús Escudero y Antonio Esquembre</li>
+<li><a href="http://www.elmundo.es/periodismo-de-datos.html">El Mundo Data</a>: Paula Guisado, Marta Ley</li>
+<li><a href="http://www.eldiario.es/temas/periodismo_de_datos/">Eldiario.es</a>: Belén Picazo, Raúl Sánchez, Raúl González</li>
+<li>La Sexta: Verónica Ramírez, Ignacio Calle</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org110aace">
+<h3 id="org110aace">Formación</h3>
+<ul>
+<li>Master URJC</li>
+<li>Máster Villanueva, inactivo</li>
+<li>Máster UNIR</li>
+<li>Medialab-Prado</li>
+<li>Cursos presenciales</li>
+<li>¿Otros?</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org0c8a5ef">
+<h3 id="org0c8a5ef">Algunos Recursos</h3>
+<ul>
+<li>Markus Mandalka, <a href="http://www.mandalka.name/investigative_journalism/">http://www.mandalka.name/investigative_journalism/</a></li>
+<li>ProPublica Open Data Institute 2016,
+<a href="https://projects.propublica.org/graphics/data-institute-2016">https://projects.propublica.org/graphics/data-institute-2016</a></li>
+<li>Github&#x2026;</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-orgbd020ad">
+<h2 id="orgbd020ad">Datos abiertos, conocimiento abierto</h2>
+<p>
+Se refiere al conocimiento abierto aquello que es libre:
+</p>
+
+<ul>
+<li>Utilizar</li>
+<li>Reutilizar</li>
+<li>Redistribuir</li>
+
+</ul>
+
+<p>
+Sin Restricciones:
+</p>
+
+<ul>
+<li>Legales</li>
+<li>Sociales</li>
+<li>Tecnológicas</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org943f410">
+<h2 id="org943f410">Algo más</h2>
+<p>
+Sin duda, pero llegamos hasta aquí&#x2026;
+</p>
+
+<p>
+¡Muchas gracias!
+</p>
+
+<ul>
+<li>Twitter: @adolflow</li>
+<li>Github: flowsta</li>
+<li>E-mail:
+<ul>
+<li>adolflow@gmail.com</li>
+<li>adolflow@infotics.es</li>
+
+</ul></li>
+
+</ul>
+</section>
+</section>
+</div>
+</div>
+<p> Creado por adolflow. </p>
+<script src="https://cdn.jsdelivr.net/reveal.js/3.0.0/lib/js/head.min.js"></script>
+<script src="https://cdn.jsdelivr.net/reveal.js/3.0.0/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: true,
+slideNumber: 'c',
+rollingLinks: true,
+keyboard: true,
+overview: true,
+width: 1200,
+height: 800,
+margin: 0.10,
+minScale: 0.50,
+maxScale: 2.50,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
+transitionSpeed: 'default',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: 'https://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'https://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'https://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+</script>
+</body>
+</html>
