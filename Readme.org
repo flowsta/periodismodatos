@@ -1,0 +1,420 @@
+#+Title: Introducción al periodismo de datos
+#+Author: Adolfo Antón Bravo
+#+Email: adolflow@infotics.es
+#+DATE: <2018-12-17 lun>
+#+Description: Introducción del periodismo de datos
+#+EXPORT_FILE_NAME: index.html
+#+OPTIONS: reveal_center:t reveal_progress:t reveal_history:nil reveal_control:t
+#+OPTIONS: reveal_rolling_links:t reveal_keyboard:t reveal_overview:t num:nil
+#+OPTIONS: reveal_width:1200 reveal_height:800
+#+OPTIONS: toc:nil h:4
+#+REVEAL_MARGIN: 0.1
+#+REVEAL_MIN_SCALE: 0.5
+#+REVEAL_MAX_SCALE: 2.5
+#+REVEAL_TRANS: linear
+#+REVEAL_THEME: white
+#+REVEAL_HLEVEL: 2
+#+REVEAL_HEAD_PREAMBLE: <meta name="description" content="Presentación de Periodismo de datos ">
+#+REVEAL_POSTAMBLE: <p> Creado por adolflow. </p>
+#+REVEAL_PLUGINS: (markdown notes)
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/reveal.js/3.0.0/
+
+
+* Periodismo de Datos
+   :PROPERTIES:
+   :reveal_background: imgs/tallerdatos.jpg
+   :END:
+* Contexto: sociedad de la información
+- Vivimos en la sociedad de la información desde los años 1960'.
+- La evolución del periodismo es la evolución de la sociedad de la información.
+- Hemos pasado de la predominancia de la sociedad industrial a la de la industria del conocimiento.
+- Estamos pasando y conviviendo de la prensa a la Web y del entorno de escritorio -estático- al portátil y a
+  los dispositivos electrónicos móviles.
+
+** ¿Sociedad industrial?
+
+- Precede, comparte, se apoya y dinamiza la *Sociedad de la información*
+- ¿Sociedad del consumo?: las noticias como elemento de consumo.
+- ¿O es una sociedad del entretenimiento? --> ¿Fake news?
+- ¿O es una Sociedad del conocimiento? --> ¿de quiénes?
+
+** Confluencia industrial-informacional (algunos)
+- Máquina de vapor de Watt, 1774
+- Telar de Jacquard, 1801: tarjetas perforadas para tejer patrones
+- Programación de Ada Lovelace, 1842.
+- John Ambrose Fleming, válvula, 1904.
+- Transistor, 1930'
+- Cambio acelerado durante y tras la II Guerra Mundial a nivel
+  hardware y software.
+- John von Neumann, arquitectura de ordenador, 1945.
+- Teoría matemática de la información de Shannon y Weaver, 1948
+  apoyada en Markov, Tukey, Von Neumann, Turing, Wiener...
+- Cibernética, Internet, Web
+* Antecedentes de la visualización de datos
+** Florence Nightingale 1820-1910
+#+attr_html: :width 300
+https://upload.wikimedia.org/wikipedia/commons/b/bb/Crimean_War%3B_Florence_Nightingale_at_Scutari_Hospital,_1856,_Wellcome_V0015400.jpg
+
+- Enfermera, escritoria y estadística
+- Considerada pionera de la enfermería moderna.
+- Creadora del primer modelo conceptual de enfermería.
+*** Causas de fallecimiento en la Guerra de Crimea
+    :PROPERTIES:
+    :reveal_background: http://www.frogheart.ca/wp-content/uploads/2014/02/Rose_FlorenceNightingale1.jpeg
+    :END:
+** Charles Minard 1781-1870
+
+http://www.ine.es/expo_graficos2010/imagenes/Minard_09_10_11.jpg
+
+- Ingeniero civil francés
+- Estudia ciencia y matemáticas
+
+*** Napoleón en Rusia
+    :PROPERTIES:
+    :reveal_background: https://upload.wikimedia.org/wikipedia/commons/2/29/Minard.png
+    :END:
+*** Migrantes
+    :PROPERTIES:
+    :reveal_background: https://cartographia.files.wordpress.com/2008/05/minard-full.jpg
+    :END:
+
+*** Algodón y lana
+    :PROPERTIES:
+    :reveal_background: https://cartographia.files.wordpress.com/2008/06/cotton-and-wool-58-to-61.jpg
+    :END:
+*** Algodón y lana, II
+    :PROPERTIES:
+    :reveal_background: https://cartographia.files.wordpress.com/2008/06/cotton-and-wool-58-to-61-graph.jpg
+    :END:
+*** Viva el vino
+    :PROPERTIES:
+    :reveal_background: https://cartographia.files.wordpress.com/2008/06/wine-and-spirit-tonnage.jpg
+    :END:
+*** Ríos y puertos
+    :PROPERTIES:
+    :reveal_background: https://cartographia.files.wordpress.com/2008/06/port-and-river-tonnage.jpg
+    :END:
+*** Exportaciones de carbón británico
+    :PROPERTIES:
+    :reveal_background: https://cartographia.files.wordpress.com/2008/06/english-coal-exports.jpg
+    :END:
+** John Snow 
+    :PROPERTIES:
+    :reveal_background: https://upload.wikimedia.org/wikipedia/commons/c/c7/Snow-cholera-map.jpg
+    :END:
+*** John Snow 1813-1858
+#+attr_html: :width 200
+https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/John_Snow.jpg/400px-John_Snow.jpg
+
+- York, 1813 - Londres, 1858.
+- Médico inglés precursor de la *epidemiología* moderna.
+- Rompe con la [[https://es.wikipedia.org/wiki/Teor%25C3%25ADa_miasm%25C3%25A1tica_de_la_enfermedad][teoría miasmática]] de la enfermedad, también denominada /teoría
+  anticontagionista/
+
+*** Buscar la fuente del cólera
+    :PROPERTIES:
+    :reveal_background: https://f.hypotheses.org/wp-content/blogs.dir/253/files/2015/02/johnsnowillustration.png
+    :END:
+
+*** Mapa del cólera
+    :PROPERTIES:
+    :reveal_background: http://blog.rtwilson.com/wp-content/uploads/2012/01/SnowMap_Points-1024x724.png
+    :END:
+
+* Antecedentes al periodismo de datos
+** American Slavery as it is: testimony, a thousand witnesses
+   :PROPERTIES:
+   :ID:       799701b7-e6ef-42b3-96f7-d0e8a6273b0b
+   :cita:     Noemí Ramírez, El País
+   :END:
+- [[https://en.wikipedia.org/wiki/American_Slavery_As_It_Is][American Slavery As It Is]] es un tratado abolicionista publicado en Nueva York por la Sociedad Americana Antiesclavista.
+- Sus tres autorxs, dos mujeres y un hombre, buscaron datos para apoyar su causa.
+- Emplearon la herramienta del anuncio "Se busca" de todos los periódicos, donde se daban datos de lxs esclavxs para que pudieran ser reconocidxs y pudieran volver a la plantación.
+- Disponible en [[https://archive.org/details/americanslaverya1839weld2/][archive.org]] y en la [[https://docsouth.unc.edu/neh/weld/weld.html][unc.edu]]
+
+* Philip Meyer
+  :PROPERTIES:
+  :reveal_background: http://newstories.jomc.unc.edu/wp-content/uploads/MEYER-PHILIP-1-25-99.jpg
+  :END:
+** The Miami Herald
+#+attr_html: :width 200
+http://newstories.jomc.unc.edu/wp-content/uploads/MEYER-PHILIP-1-25-99.jpg
+
+- Comienza su actividad periodística en The Miami Herald (1958-62).
+- Precedente de Meyer al periodismo de datos: queja del alto coste de
+  los seguros escolares contra incendios y huracanes
+ - Ese coste lo establecía un consejo de funcionarios, cruza los
+   nombres del consejo con personas de empresas y da como resultado
+   que el 65% de la financiación de las campañas electorales procedían
+   de empresarios de seguros.
+
+** Ciencias sociales
+    :PROPERTIES:
+    :reveal_background: http://computer-history.info/Page4.dir/pages/IBM.7090.dir/images/ibm.7090.jpg
+    :END:
+
+*** Aplicaciones informáticas
+#+attr_html: :width 200
+http://computer-history.info/Page4.dir/pages/IBM.7090.dir/images/ibm.7090.jpg
+
+ - En Harvard Computation Center (1966) utiliza un IBM 7090.
+ - Busca predecir los resultados electorales de Ohio sin éxito.
+ - Durante su beca en Nieman estudia métodos de investigación de las ciencias sociales para aplicarlos al periodismo.
+ - Cada estudiante disponía de 120 segundos para utilizar el ordenador.
+ - Lo emplea con datos tabulados sobre /Harvard Data-Text/, el predecesor de /SPSS/ (/Statistical Package for the Social Sciences/).
+ - Intercambia minutos de uso del IBM por artículos para Nieman.
+*** Detroit Riots
+    :PROPERTIES:
+    :reveal_background: http://www.home.isr.umich.edu/wp-content/uploads/2011/04/freepress_article.png
+    :END:
+1967, largo y cálido verano
+
+** Investigación
+
+Revueltas de la ciudad de Detroit 1967
+
+ - Tras una semana de incidentes, hay 46 personas muertas.
+ - Se propone realizar, además de las historias periodísticas clásicas, una encuesta que busque las causas de la revuelta.
+ - La Universidad de California había realizado un informe sobre las
+   revueltas en Watts 1965. Les llevó dos años.
+
+** Encuesta
+
+- Meyer se propone seguir el mismo método que la UCLA
+- Reducir el tiempo a hacerlo en tan solo tres semanas.
+- Equipo:
+ - Dos psicólogxs
+ - Una programadora informática
+ - 50 entrevistadorxs.
+ - Programa /Filter Tau/ sobre un /IBM 360/40/ 
+*** IBM 360/40
+    :PROPERTIES:
+    :reveal_background: https://upload.wikimedia.org/wikipedia/commons/8/8d/Bundesarchiv_B_145_Bild-F038812-0014,_Wolfsburg,_VW_Autowerk.jpg
+    :END:
+
+** Periodismo de precisión
+ #+attr_html: :width 300
+ https://upload.wikimedia.org/wikipedia/commons/8/8d/Bundesarchiv_B_145_Bild-F038812-0014,_Wolfsburg,_VW_Autowerk.jpg
+
+  - El uso de métodos de análisis de las ciencias sociales unido a software estadístico y ordenadores para construir una historia periodística lo definen como *periodismo de precisión* (1969).
+  - Desmontan la teoría /Riff-Raff/ (revuelta para el avance) y la
+    /Assimilation/ (migraciones)
+ - La teoría que triunfa es la de las aspiraciones cortadas: ver cómo los demás progresan mientras tú te estancas causa frustración.
+  - Su trabajo se traduce en un libro fundamental: /Precision Journalism: A Reporter's Introduction to Social Science Methods/ (1973)
+
+*** Computer Assisted Reporting...
+  - La sociedad de la información produce abundancia de información.
+  - Lo que a su vez origina un problema de atención.
+  - Se sacrifica todo en pro de la atención, incluso la verdad.
+  - Nota: cuando decía atención, entendamos ahora /analytics/
+  - CAR ha promovido un alto estándar de noticias que cuentan la verdad
+  - Aplicaciones informáticas: manejar grandes cantidades de información con herramientas analíticas más potentes.
+  - El ordenador ayuda pero el ordenador no es el objetivo ni define lo que es el periodismo.
+  - Situamos al periodismo a nivel de la ciencia y del arte.
+
+*** ...is dead
+
+ - La vía artística facilita la función del periodismo como entretenimiento.
+ - Cuando la atención es más importante que la historia, el mercado recompensa a aquellos que tienen habilidades en la creación de apariencias.
+ - Para favorecer la verdad en el periodismo, podemos practicar periodismo de precisión.
+ - Superar las ilusiones, la superstición, la percepción selectiva y las otras debilidades humanas que dificultan la adquisición de conocimientos.
+
+** Resumen
+- Periodismo
+- Investigación
+- Datos
+- Aplicaciones informáticas
+- Visualización
+
+* Periodismo de datos en España
+  :PROPERTIES:
+  :reveal_background: http://photos4.meetupstatic.com/photos/event/4/d/d/e/highres_435379934.jpeg
+  :END:
+
+** Grupo de Periodismo de Datos de Medialab-Prado
+- En funcionamiento desde el 20 de octubre de 2011.
+- Se inauguró tras un seminario organizado por Medialab Prado, Access Info Europe y Civio.
+- Fundadorxs: José Luis de Vicente, Victoria Anderica, David Cabo, Alberto Cairo, Pepe Cervera, Antonio Delgado y Mar Cabra. 
+
+*** Actividades
+
+- Más de 30 [[http://medialab-prado.es/article/periodismo_de_datos_-_grupo_de_trabajo][Sesiones mensuales]]: talleres, charlas, intercambio de proyectos
+- Talleres de producción de periodismo de datos, desde 2013 ininterrumpidamente.
+- Difusión:
+ - [[http://listas.medialab-prado.es/cgi-bin/mailman/listinfo/grupoperiodismodatos][Lista de correo]] (no está en funcionamiento)
+ - Hashtag [[https://twitter.com/search?q=periodismodatos&src=typd][#periodismodatos]].
+ - [[http://www.meetup.com/es-ES/Madrid-Periodismo-de-datos-Meetup/][Meetup]]
+ - Github
+
+*** Ediciones mensuales
+- Se han realizado distintos formatos
+  - Presentaciones
+  - Demostraciones
+  - Barcamp
+  - Talleres
+  - Journocoders
+
+*** Talleres de producción de periodismo de datos
+- Comenzaron en 2013 de la mano de Mar Cabra
+- Desde 2015 con Adolfo Antón Bravo.
+- Formato dos fines de semana largos hasta 2015
+- 2015: se añade un espacio intermedio.
+- Convocatoria de proyectos
+- Convocatoria de colaboradorxs
+- Mentores internacionales y locales
+- 8 proyectos seleccionados hasta 2017, 6 desde entoncees.
+- Equipos multidisciplinares
+- Dinamización y capacitación.
+- Charlas y talleres
+
+*** Jornadas de periodismo de datos
+- Comienzan en 2013 de las manos de Karma Peiró y Mar Cabra.
+- 3-4 días de charlas, talleres, barcamps, hackatones.
+- Ponentes internacionales y locales
+- Desde 2017 se integran con el taller de periodismo de datos.
+
+*** Lista de correo
+- Creada desde el inicio
+- Muy activa en sus comienzos
+- Lista Mailman en el servidor de Medialab-Prado con más de 400 personas.
+
+*** Meetup
+- Más de 1.100 suscritxs
+- Difusión de actividades
+- Foro
+- Correo: Mailman
+- Gestión de entradas
+
+** Editors Lab
+- Hackatones de innovación periodística organizados por la Global Editors Network.
+
+* Evolución de las competencias
+#+attr_html: :width 600
+http://m.cdn.blog.hu/me/media20/image/roles_in_the_newsroom.jpg
+- Periodista con competencias informáticas
+- Desarrollador de aplicaciones de noticias
+- Especialista en visualización de datos
+** Términos para investigar
+
+- Teoría de redes
+- Internet como espacio virtual de la comunicación
+- Relaciones horizontales, descentralizadas, dinámicas y circulares
+- Cibernética de segundo grado, sistemas inteligentes
+- Ciudades abiertas, ciudades poderosas, /Smart cities/
+- Matemáticas, estadística, documentación y recuperación de la información, programación...
+
+** ¿Nuevos medios?
+
+Lev Manovich en [[https://uea1arteycomunicacion.files.wordpress.com/2013/09/manovich-el-legunaje-de-los-nuevos-medios.pdf][El lenguaje de los nuevos medios]], habla de sus características:
+
+- Representación numérica: 0101
+- Modularidad: capas, procesos, estructuración...
+- Automatización: cron, bot, programación...
+- Variabilidad: datos dinámicos
+- Transcodificación: conversión, parseo, exportar...
+
+
+** Término periodista de datos
+
+- Periodista de Datos Abiertos, de la Web: comienza a utilizarse a
+  partir de 2011
+- Distintas competencias y aptitudes.
+- /Data Journalist/, periodista de datos, el término más utilizado en la actualidad.
+- /Computer-assisted reporter/, reportero asistido por ordenador, del original norteamericano previo a Philip Meyer pero consolidado con su /precission journalism/ o periodismo de precisión.
+- /Newsroom developer/ o desarrollador de redacción.
+- /Journo-geek/ o periodista geek, en inglés el juego de palabras funciona mejor.
+- Periodismo 3.0
+*** Pero no solo
+Y se añaden algunos más:
+
+- /Journo-coder/, una especie de /perio-programador/
+- /Programmer-journalist/: programador-periodista.
+- /Hacker-journalist/: hacker-periodista
+- /Journo-programmer/: /perio-programador/
+*** Journo programmer
+- [[https://en.wikipedia.org/wiki/Dave_Winer][Dave Winer]] habla de /journo programmer/ o /periodista programador/.
+- La importancia de enlazar contenidos es comparable con la importancia de procedimientos en los lenguajes de programación:
+- Considera a la web como una máquina de prior-art, una forma de compartir conocimiento y saber hacer.
+- Otro concepto que le gusta es el de /stream/, flujo o río de información que ha convertido la prensa, la información, en algo líquido.
+
+#+BEGIN_QUOTE
+Imaginad que cada pieza de código que escribes tiene que volver al principio y definir lo que significa añadir dos números. Lo mismo ocurre con la escritura: no necesito escribir un artículo de Niemen Lab porque ya está escrito y lo puedo enlazar.
+#+END_QUOTE
+
+
+** Enfoques del periodismo de datos
+   :PROPERTIES:
+   :reveal_background: https://upload.wikimedia.org/wikipedia/commons/4/48/Data_driven_journalism_process.jpg
+   :END:
+*** Las 3 dimensiones
+    :PROPERTIES:
+    :reveal_background: http://knightlab.northwestern.edu/wp-content/uploads/2013/06/venn-3-dimensions-of-data-journalism.png
+    :END:
+
+*** The Hacker Journalist
+    :PROPERTIES:
+    :reveal_background: http://www.knightfoundation.org/media/uploads/media_images/Screen_shot_2011-06-22_at_8.51.41_AM.png
+    :END:
+*** Infografía
+    :PROPERTIES:
+    :reveal_background: http://cdn1.mumbrella.com.au/uploads/2013/02/Screen-Shot-2013-02-18-at-9.08.02-AM.png
+    :END:
+
+*** Competencias
+  :PROPERTIES:
+  :reveal_background: http://mediashift.org/wp-content/uploads/sites/8/2014/06/data-journalism_AnnaSchiller.jpg
+   :END:
+* Ejemplos de Periodismo de Datos                                       :END:
+** Internacional
+- ICIJ, #Panamapapers
+- Journalism Funds: Migrants' Files
+** España
+#+attr_html: :width 500px
+https://upload.wikimedia.org/wikipedia/commons/4/48/Data_driven_journalism_process.jpg
+- [[http://www.elconfidencial.com/tags/otros/periodismo-de-datos-9977/][ElConfidencial.com]]: Daniele Grasso, Jesús Escudero y Antonio Esquembre
+- [[http://www.elmundo.es/periodismo-de-datos.html][El Mundo Data]]: Paula Guisado, Marta Ley
+- [[http://www.eldiario.es/temas/periodismo_de_datos/][Eldiario.es]]: Belén Picazo, Raúl Sánchez, Raúl González
+- La Sexta: Verónica Ramírez, Ignacio Calle
+
+** Formación
+- Master URJC
+- Máster Villanueva, inactivo
+- Máster UNIR
+- Medialab-Prado
+- Cursos presenciales
+- ¿Otros?
+** Algunos Recursos
+
+- Markus Mandalka, http://www.mandalka.name/investigative_journalism/
+- ProPublica Open Data Institute 2016,
+  https://projects.propublica.org/graphics/data-institute-2016
+- Github...
+
+* Datos abiertos, conocimiento abierto
+
+Se refiere al conocimiento abierto aquello que es libre:
+
+- Utilizar
+- Reutilizar
+- Redistribuir
+
+Sin Restricciones:
+
+- Legales
+- Sociales
+- Tecnológicas
+
+* Algo más
+
+Sin duda, pero llegamos hasta aquí...
+
+¡Muchas gracias!
+
+- Twitter: @adolflow
+- Github: flowsta
+- E-mail:
+ - adolflow@gmail.com
+ - adolflow@infotics.es
+
+
+
